@@ -3,6 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:orientation="vertical">
 
     <ScrollView
@@ -24,7 +26,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ข้าม" />
+                    android:text="@string/skip" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -47,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="โรงพยาบาลราชพฤกษ์"
+                    android:text="@string/thai_hospital"
                     android:textColor="#FFEBEE"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -62,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="RATCHAPHRUEH HOSPITAL"
+                    android:text="@string/eng_hospital"
                     android:textColor="#FFEBEE"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -123,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/bg_edittext"
-                    android:text="เข้าสู่ระบบ" />
+                    android:text="@string/login" />
 
                 <TextView
                     android:layout_marginTop="5dp"
@@ -163,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="ลืมรหัสผ่าน ?" />
+                    android:text="@string/forget_password" />
             </LinearLayout>
 
             <LinearLayout
@@ -176,13 +178,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ไม่มีบัญชีผู้ใช้ ?" />
+                    android:text="@string/no_account" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:text="สมัครสมาชิก" />
+                    android:text="@string/register_activity" />
             </LinearLayout>
 
 

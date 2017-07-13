@@ -6,7 +6,36 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="oper_drawer">Open Menu</string>
+    <string name="open_drawer">Open Menu</string>
     <string name="close_drawer">Close Menu</string>
+    <string name="register_activity">สมัครสมาชิก</string>
+    <string name="edit_information_activity">แก้ไขข้อมูลส่วนตัว</string>
+    <string name="main_activity">หน้าหลัก</string>
+    <string name="menu_message">ข้อความ</string>
+    <string name="menu_packet">แพ็กเกจ</string>
+    <string name="menu_promotion">โปรโมชัน</string>
+    <string name="menu_car">รถพยาบาล</string>
+    <string name="menu_meet">นัดหมาย</string>
+    <string name="menu_doctor">รายชื่อแพทย์</string>
+    <string name="menu_contact">ติดต่อเรา</string>
+    <string name="menu_service">บริการเรา</string>
+    <string name="button_personal_information">ข้อมูลส่วนตัว</string>
+    <string name="prefix">คำนำหน้า</string>
+    <string name="name">ชื่อ</string>
+    <string name="last_name">นามสกุล</string>
+    <string name="birth_date">วันเกิด</string>
+    <string name="ssn">เลขบัตรประชาชน</string>
+    <string name="phone_number">เบอร์ติดต่อ</string>
+    <string name="email">อีเมล</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="thai_hospital">โรงพยาบาลราชพฤกษ์</string>
+    <string name="eng_hospital">RATCHAPHRUEK HOSPITAL</string>
+    <string name="forget_password">ลืมรหัสผ่าน ?</string>
+    <string name="no_account">ไม่มีบัญชีผู้ใช้ ?</string>
+    <string name="skip">ข้าม</string>
+
 
 </resources>

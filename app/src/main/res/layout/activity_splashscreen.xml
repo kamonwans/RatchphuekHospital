@@ -21,7 +21,7 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="โรงพยาบาลราชพฤกษ์"
+            android:text="@string/thai_hospital"
             android:textColor="#FFEBEE"
             android:textSize="20sp" />
 
@@ -36,7 +36,7 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RATCHAPHRUEH HOSPITAL"
+            android:text="@string/eng_hospital"
             android:textColor="#FFEBEE"
             android:textSize="15sp" />
 

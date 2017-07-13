@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     tools:context="com.example.kamonwan.ratchaphruekhospital.EditProfileActivity">
 
     <android.support.v7.widget.Toolbar
@@ -42,7 +44,7 @@
             android:layout_gravity="center"
             android:ellipsize="end"
             android:gravity="center"
-            android:text="แก้ไขข้อมูลส่วนตัว"
+            android:text="@string/edit_information_activity"
             android:textColor="#FFEBEE"
             android:textIsSelectable="false"
             android:textSize="18sp"
@@ -96,7 +98,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="คำนำหน้า" />
+                    android:text="@string/prefix" />
 
                 <Spinner
                     android:id="@+id/btn_dropdown"
@@ -107,7 +109,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ชื่อ" />
+                    android:text="@string/name" />
 
                 <EditText
                     android:id="@+id/editText"
@@ -119,7 +121,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="นามสกุล" />
+                    android:text="@string/last_name" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -137,7 +139,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="วันเกิด" />
+                    android:text="@string/birth_date" />
             </LinearLayout>
 
             <LinearLayout
@@ -178,7 +180,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="เลขบัตรประชาชน" />
+                    android:text="@string/ssn" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -189,7 +191,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="เบอร์ติดต่อ" />
+                    android:text="@string/phone_number" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -245,7 +247,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="อีเมล" />
+                    android:text="@string/email" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -256,7 +258,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="รหัสผ่าน" />
+                    android:text="@string/password" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -267,7 +269,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ยืนยันรหัสผ่าน" />
+                    android:text="@string/confirm_password" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -287,7 +289,7 @@
                     android:layout_height="wrap_content"
                     android:background="#E53935"
                     android:gravity="center"
-                    android:text="ออกจากระบบ" />
+                    android:text="@string/logout" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

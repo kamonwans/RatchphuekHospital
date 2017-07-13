@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:orientation="vertical"
     tools:context="com.example.kamonwan.ratchaphruekhospital.RegisterActivity">
             <android.support.v7.widget.Toolbar
@@ -41,7 +43,7 @@
                     android:layout_gravity="center"
                     android:ellipsize="end"
                     android:gravity="center"
-                    android:text="สมัครสมาชิก"
+                    android:text="@string/register_activity"
                     android:textColor="#FFEBEE"
                     android:textIsSelectable="false"
                     android:textSize="18sp"
