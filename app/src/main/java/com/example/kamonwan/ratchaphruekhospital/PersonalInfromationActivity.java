@@ -13,6 +13,7 @@ Button btn_editProfile;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_infromation);
 
+        btn_editProfile = (Button) findViewById(R.id.btn_editProfile);
         btn_editProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
