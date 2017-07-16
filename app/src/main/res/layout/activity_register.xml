@@ -196,7 +196,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/bg_edittext"
+            android:background="@drawable/bg_button"
             android:text="xxxxxxxx" />
 
         <TextView

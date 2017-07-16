@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initInstance();
 
     }
@@ -54,10 +53,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Fragment();
+
     }
 
+    public void Fragment() {
+        MainFragment fragment = new MainFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.contentContainer, fragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
 
+    }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        getSupportFragmentManager().popBackStack();
+    }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {

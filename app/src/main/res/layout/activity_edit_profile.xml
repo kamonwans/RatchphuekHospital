@@ -294,7 +294,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#057b13"
                     android:gravity="center"
-                    android:text="@string/login" />
+                    android:text="ยืนยันข้อมูล" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
