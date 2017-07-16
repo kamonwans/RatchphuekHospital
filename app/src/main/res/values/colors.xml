@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorBgDrawer">#FFFFFF</color>
+    <color name="colorBgBtnLogout">#E53935</color>
+    <color name="colorBgBtnLogin">#81C784</color>
 </resources>

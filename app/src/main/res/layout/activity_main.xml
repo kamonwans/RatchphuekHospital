@@ -54,14 +54,16 @@
             android:layout_margin="8dp"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/editProfile"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
                 android:elevation="5dp"
+                android:src="@mipmap/ic_launcher"
                 android:padding="6dp"
-                android:src="@drawable/bg_editprofile" />
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
