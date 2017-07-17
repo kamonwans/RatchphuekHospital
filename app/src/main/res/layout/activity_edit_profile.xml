@@ -70,7 +70,7 @@
             app:civ_border_color="#FF000000"/>
 
         <ImageView
-            android:id="@+id/selecImage"
+            android:id="@+id/selectImage"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_alignParentTop="true"
