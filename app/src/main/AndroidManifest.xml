@@ -10,7 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +20,11 @@
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="adjustNothing"></activity>
+            android:windowSoftInputMode="adjustNothing" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".PersonalInfromationActivity" />
         <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ContactActivity"></activity>
     </application>
 
 </manifest>
