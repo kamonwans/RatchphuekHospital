@@ -1,4 +1,4 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.activity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
+
+import com.example.kamonwan.ratchaphruekhospital.R;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.activity;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -15,6 +15,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.example.kamonwan.ratchaphruekhospital.model.MainFragment;
+import com.example.kamonwan.ratchaphruekhospital.adapter.PagerAdapter;
+import com.example.kamonwan.ratchaphruekhospital.R;
 import com.viewpagerindicator.CirclePageIndicator;
 
 

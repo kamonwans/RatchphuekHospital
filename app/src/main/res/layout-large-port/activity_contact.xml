@@ -57,7 +57,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             android:scaleType="centerCrop"
             android:src="@drawable/title_head_contact" />
     </LinearLayout>
@@ -70,6 +70,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="15dp"
             android:orientation="vertical">
 
 
@@ -236,16 +237,16 @@
                 android:background="#b2b2b2" />
         </LinearLayout>
 
-        <!--<LinearLayout-->
-            <!--android:orientation="vertical"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content">-->
-          <!--<fragment-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-              <!--android:id="@+id/map"-->
-              <!--android:layout_width="match_parent"-->
-              <!--android:layout_height="wrap_content"/>-->
-        <!--</LinearLayout>-->
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
     </ScrollView>
 
 </LinearLayout>

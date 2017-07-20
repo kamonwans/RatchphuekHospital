@@ -1,4 +1,4 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.kamonwan.ratchaphruekhospital.R;
 
 public class LoginActivity extends AppCompatActivity {
     ImageView btn_gmail;

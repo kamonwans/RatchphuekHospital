@@ -1,10 +1,12 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
+
+import com.example.kamonwan.ratchaphruekhospital.R;
 
 public class SplashScreen extends AppCompatActivity {
 

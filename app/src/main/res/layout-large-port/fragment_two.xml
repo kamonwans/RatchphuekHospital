@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kamonwan.ratchaphruekhospital.model.OneFragment">
+    tools:context="com.example.kamonwan.ratchaphruekhospital.model.TwoFragment">
 
     <!-- TODO: Update blank fragment layout -->
    <ImageView
        android:scaleType="centerCrop"
-       android:src="@drawable/promotion"
+       android:src="@drawable/img_one"
        android:layout_width="match_parent"
-       android:layout_height="150dp" />
+       android:layout_height="250dp" />
 
 </RelativeLayout>

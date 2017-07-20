@@ -7,7 +7,7 @@
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true"
     android:orientation="vertical"
-    tools:context="com.example.kamonwan.ratchaphruekhospital.EditProfileActivity">
+    tools:context="com.example.kamonwan.ratchaphruekhospital.activity.EditProfileActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -133,9 +133,9 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <TextView
@@ -164,9 +164,9 @@
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <TextView
@@ -227,9 +227,9 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_button"
                     android:orientation="vertical">
@@ -242,9 +242,9 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_button"
                     android:orientation="vertical">
@@ -258,9 +258,9 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_button"
                     android:orientation="vertical">
@@ -306,9 +306,9 @@
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <TextView
@@ -339,12 +339,25 @@
                 android:layout_margin="8dp"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="คุณเคยเข้ารับการรักษาที่ โรงพยาบาลราชพฤกษ์"
-                    android:textColor="@color/colorBgText" />
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="คุณเคยเข้ารับการรักษาที่ โรงพยาบาลราชพฤกษ์"
+                        android:textColor="@color/colorBgText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="*"
+                        android:textColor="#cc0606" />
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -405,9 +418,9 @@
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <TextView
@@ -432,9 +445,9 @@
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <TextView

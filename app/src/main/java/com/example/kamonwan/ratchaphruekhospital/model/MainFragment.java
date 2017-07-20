@@ -1,4 +1,4 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.model;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.kamonwan.ratchaphruekhospital.R;
+import com.example.kamonwan.ratchaphruekhospital.adapter.MainMenuAdapter;
 
 public class MainFragment extends Fragment {
     RecyclerView recyclerViewMain;

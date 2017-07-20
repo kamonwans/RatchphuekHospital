@@ -42,7 +42,7 @@
             <android.support.v4.view.ViewPager
                 android:id="@+id/pager"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:background="#ffffff" />
 
             <com.viewpagerindicator.CirclePageIndicator
@@ -57,7 +57,7 @@
         <FrameLayout
             android:id="@+id/contentContainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
@@ -77,8 +77,8 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/editProfile"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="8dp"
                 android:elevation="5dp"
                 android:padding="6dp"

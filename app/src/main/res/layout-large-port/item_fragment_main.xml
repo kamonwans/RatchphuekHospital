@@ -8,7 +8,8 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="horizontal">
@@ -16,9 +17,9 @@
             <LinearLayout
                 android:id="@+id/bg_menu"
                 android:layout_width="0dp"
+                android:layout_height="250dp"
+
                 android:layout_weight="1"
-                android:layout_height="150dp"
-                android:layout_margin="8dp"
                 android:background="@drawable/bg_packet"
                 android:gravity="center"
                 android:orientation="vertical"
@@ -26,8 +27,8 @@
 
                 <ImageView
                     android:id="@+id/icon_menu"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:src="@drawable/icon_packet" />
 
                 <View
@@ -45,8 +46,8 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/menu_packet"
                     android:textColor="#FAFAFA"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
-            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

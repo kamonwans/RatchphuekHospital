@@ -444,10 +444,11 @@
             </LinearLayout>
 
             <LinearLayout
+                android:gravity="bottom"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:orientation="vertical">
+                android:layout_marginTop="65dp"
+                >
 
                 <Button
                     android:id="@+id/btn_register"

@@ -1,8 +1,12 @@
-package com.example.kamonwan.ratchaphruekhospital;
+package com.example.kamonwan.ratchaphruekhospital.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.kamonwan.ratchaphruekhospital.model.OneFragment;
+import com.example.kamonwan.ratchaphruekhospital.model.ThreeFragment;
+import com.example.kamonwan.ratchaphruekhospital.model.TwoFragment;
 
 /**
  * Created by kamonwan on 7/19/2017.
