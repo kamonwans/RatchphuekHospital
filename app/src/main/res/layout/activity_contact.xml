@@ -33,7 +33,7 @@
             android:paddingTop="10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/back"
-            android:tint="#FFEBEE"
+            android:tint="#ffffff"
             android:visibility="visible" />
 
         <TextView
@@ -43,7 +43,7 @@
             android:ellipsize="end"
             android:gravity="center"
             android:text="@string/menu_contact"
-            android:textColor="#FFEBEE"
+            android:textColor="#ffffff"
             android:textIsSelectable="false"
             android:textSize="18sp"
             android:visibility="visible" />
@@ -76,7 +76,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -91,16 +91,17 @@
                     android:layout_marginLeft="20dp"
                     android:text="ที่อยู่ : 150/18 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40000" />
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
+                android:background="#b2b2b2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -127,16 +128,17 @@
                 </LinearLayout>
 
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
+                android:background="#b2b2b2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -151,16 +153,17 @@
                     android:layout_marginLeft="20dp"
                     android:text="อีเมล : info@rph.co.th" />
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
+                android:background="#b2b2b2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -175,16 +178,17 @@
                     android:layout_marginLeft="20dp"
                     android:text=" Ratchaphruekhospital" />
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
+                android:background="#b2b2b2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -199,16 +203,17 @@
                     android:layout_marginLeft="15dp"
                     android:text=" @Ratchaphruekhospital" />
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
+                android:background="#b2b2b2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -223,14 +228,24 @@
                     android:layout_marginLeft="20dp"
                     android:text="www.rph.co.th" />
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#919191" />
-
-
+                android:background="#b2b2b2" />
         </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+          <!--<fragment-->
+
+              <!--android:id="@+id/map"-->
+              <!--android:layout_width="match_parent"-->
+              <!--android:layout_height="wrap_content"/>-->
+        <!--</LinearLayout>-->
     </ScrollView>
 
 </LinearLayout>

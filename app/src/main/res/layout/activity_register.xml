@@ -35,17 +35,20 @@
             android:paddingTop="10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/back"
-            android:tint="#FFEBEE"
+            android:tint="#ffffff"
             android:visibility="visible" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@drawable/bg_head"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
             android:text="@string/register_activity"
-            android:textColor="@color/colorBgDrawer" />
-
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:visibility="visible" />
     </android.support.v7.widget.Toolbar>
 
     <ScrollView
@@ -72,7 +75,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="คำนำหน้า" />
+                        android:text="คำนำหน้า"
+                        android:textColor="@color/colorBgText" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -99,11 +103,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ชื่อ" />
@@ -120,18 +126,21 @@
 
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:id="@+id/editText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="สมจิต" />
+                    android:text="\tสมจิต" />
 
                 <LinearLayout
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="นามสกุล" />
@@ -145,10 +154,11 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="จงจอหอ" />
+                    android:text="\tจงจอหอ" />
             </LinearLayout>
 
             <LinearLayout
@@ -163,6 +173,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="วันเกิด" />
@@ -186,6 +197,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -200,9 +212,9 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_button"
                     android:orientation="vertical">
@@ -215,6 +227,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -241,6 +254,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="เลขบัตรประชาชน" />
@@ -254,17 +268,20 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="0000000000" />
+                    android:text="\t0000000000" />
 
                 <LinearLayout
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="เบอร์ติดต่อ" />
@@ -278,10 +295,11 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="0000000000" />
+                    android:text="\t0000000000" />
             </LinearLayout>
 
             <LinearLayout
@@ -291,6 +309,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:textColor="@color/colorBgText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -320,7 +339,7 @@
                 android:layout_width="200dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
-                android:background="#FFEBEE" />
+                android:background="#919191" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -334,6 +353,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="อีเมล" />
@@ -347,17 +367,20 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="kkkkkkkk@gmail.com" />
+                    android:text="\tkkkkkkkk@gmail.com" />
 
                 <LinearLayout
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="รหัสผ่าน" />
@@ -371,17 +394,20 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="xxxxxxxx" />
+                    android:text="\txxxxxxxx" />
 
                 <LinearLayout
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
+                        android:textColor="@color/colorBgText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ยืนยันรหัสผ่าน" />
@@ -395,10 +421,11 @@
                 </LinearLayout>
 
                 <EditText
+                    android:textColor="@color/colorBgEditText"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/bg_button"
-                    android:text="xxxxxxxx" />
+                    android:text="\txxxxxxxx" />
             </LinearLayout>
 
             <LinearLayout

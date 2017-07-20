@@ -6,4 +6,6 @@
     <color name="colorBgDrawer">#FFFFFF</color>
     <color name="colorBgBtnLogout">#E53935</color>
     <color name="colorBgBtnLogin">#81C784</color>
+    <color name="colorBgText">#2d2d2d</color>
+    <color name="colorBgEditText">#5d5d5d</color>
 </resources>
