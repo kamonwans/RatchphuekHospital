@@ -10,7 +10,7 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="58dp"
         android:background="@drawable/bg_head"
         android:contentInsetEnd="0dp"
         android:contentInsetLeft="0dp"
@@ -84,6 +84,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_address" />
@@ -92,7 +93,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="10dp"
                         android:text="ที่อยู่ : 150/18 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40000"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -110,6 +111,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_phone" />
@@ -118,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="10dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -149,6 +151,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_email" />
@@ -157,7 +160,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="10dp"
                         android:text="อีเมล : info@rph.co.th"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -175,6 +178,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_facebook" />
@@ -183,7 +187,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="10dp"
                         android:text=" Ratchaphruekhospital"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -201,6 +205,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_line" />
@@ -227,6 +232,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:layout_marginLeft="30dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:src="@drawable/icon_website" />
@@ -235,7 +241,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="10dp"
                         android:text="www.rph.co.th"
                         android:textSize="18sp" />
                 </LinearLayout>

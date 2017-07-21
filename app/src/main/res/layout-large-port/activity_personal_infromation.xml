@@ -50,143 +50,157 @@
 
     </android.support.v7.widget.Toolbar>
 
-    <LinearLayout
-        android:layout_gravity="center"
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
 
             <LinearLayout
-               android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/editProfile"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_margin="8dp"
-                    android:elevation="5dp"
-                    android:padding="6dp"
-                    android:src="@mipmap/ic_launcher"
-                    app:civ_border_color="#b2b2b2"
-                    app:civ_border_width="2dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:orientation="vertical">
 
-                <TextView
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/editProfile"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="8dp"
+                        android:elevation="5dp"
+                        android:padding="6dp"
+                        android:src="@mipmap/ic_launcher"
+                        app:civ_border_color="#b2b2b2"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="นายสมจิต จงจอหอ"
+                        android:textColor="#388E3C"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="xxxx@gmail.com"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="250dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:background="#212121" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันเกิด : "
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="17 พฤศจิกายน 2524"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="นายสมจิต จงจอหอ"
-                    android:textColor="#388E3C"
-                    android:textSize="26sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เลขบัตรประชาชน : "
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="1234567890123"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:gravity="center"
-                    android:text="xxxx@gmail.com"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
 
-                <View
-                    android:layout_width="250dp"
-                    android:layout_height="1dp"
-                    android:layout_gravity="center"
-                    android:layout_margin="8dp"
-                    android:background="#212121" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เบอร์ : "
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="000-0000000"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_editProfile"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_edit_personal"
+                        android:text="@string/edit_information_activity"
+                        android:textColor="#388E3C" />
+                </LinearLayout>
+
+
             </LinearLayout>
 
-            <LinearLayout
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="วันเกิด : "
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="17 พฤศจิกายน 2524"
-                    android:textSize="18sp" />
-            </LinearLayout>
+                android:layout_height="230dp" />
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="เลขบัตรประชาชน : "
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="1234567890123"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="เบอร์ : "
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:text="000-0000000"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_editProfile"
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/bg_edit_personal"
-                    android:text="@string/edit_information_activity"
-                    android:textColor="#388E3C" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:gravity="bottom"
-                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -194,11 +208,13 @@
                 <Button
                     android:id="@+id/button"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:background="@drawable/bg_red_button_selector"
                     android:text="@string/logout"
-                    android:textColor="@color/colorBgDrawer" />
+                    android:textColor="@color/colorBgDrawer"
+                    android:textSize="16sp" />
             </LinearLayout>
-</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

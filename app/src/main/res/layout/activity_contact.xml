@@ -85,6 +85,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_address" />
@@ -110,11 +111,13 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_phone" />
 
                 <LinearLayout
+                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -147,6 +150,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_email" />
@@ -172,6 +176,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_facebook" />
@@ -197,6 +202,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_line" />
@@ -222,6 +228,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:layout_marginLeft="20dp"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/icon_website" />
@@ -245,7 +252,7 @@
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="300dp"
         tools:context="com.example.kamonwan.ratchaphruekhospital.activity.MapsActivity" />
 </LinearLayout>
     </ScrollView>
