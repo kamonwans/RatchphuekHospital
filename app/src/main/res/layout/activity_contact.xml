@@ -235,17 +235,6 @@
                 android:layout_gravity="center"
                 android:background="#b2b2b2" />
         </LinearLayout>
-
-        <!--<LinearLayout-->
-            <!--android:orientation="vertical"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content">-->
-          <!--<fragment-->
-
-              <!--android:id="@+id/map"-->
-              <!--android:layout_width="match_parent"-->
-              <!--android:layout_height="wrap_content"/>-->
-        <!--</LinearLayout>-->
     </ScrollView>
 
 </LinearLayout>
