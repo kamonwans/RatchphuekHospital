@@ -133,11 +133,13 @@
 
 
                     <EditText
+                        android:inputType="text"
                         android:id="@+id/editText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\tสมจิต"
+                        android:text=""
+                        android:padding="10dp"
                         android:textColor="@color/colorBgEditText" />
 
                     <LinearLayout
@@ -161,10 +163,12 @@
                     </LinearLayout>
 
                     <EditText
+                        android:inputType="text"
+                        android:padding="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\tจงจอหอ"
+                        android:text=""
                         android:textColor="@color/colorBgEditText" />
                 </LinearLayout>
 
@@ -275,10 +279,13 @@
                     </LinearLayout>
 
                     <EditText
+                        android:inputType="number"
+                        android:padding="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\t0000000000"
+                        android:text=""
+                        android:maxLength="13"
                         android:textColor="@color/colorBgEditText" />
 
                     <LinearLayout
@@ -302,10 +309,13 @@
                     </LinearLayout>
 
                     <EditText
+                        android:inputType="phone"
+                        android:padding="10dp"
+                        android:maxLength="15"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\t0000000000"
+                        android:text=""
                         android:textColor="@color/colorBgEditText" />
                 </LinearLayout>
 
@@ -346,11 +356,13 @@
                     android:orientation="horizontal">
 
                     <CheckBox
+                        android:id="@+id/checkOne"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="เคย" />
 
                     <CheckBox
+                        android:id="@+id/checkTwo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
@@ -392,7 +404,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\tkkkkkkkk@gmail.com"
+                        android:text=""
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
                         android:textColor="@color/colorBgEditText" />
 
                     <LinearLayout
@@ -419,7 +433,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\txxxxxxxx"
+                        android:text=""
+                        android:inputType="textPassword"
+                        android:padding="10dp"
                         android:textColor="@color/colorBgEditText" />
 
                     <LinearLayout
@@ -443,10 +459,12 @@
                     </LinearLayout>
 
                     <EditText
+                        android:padding="10dp"
+                        android:inputType="textPassword"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/bg_button"
-                        android:text="\txxxxxxxx"
+                        android:text=""
                         android:textColor="@color/colorBgEditText" />
                 </LinearLayout>
             </LinearLayout>

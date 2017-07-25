@@ -79,7 +79,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -94,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="ที่อยู่ : 150/18 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40000"
+                        android:text=" ที่อยู่ : 150/18 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40000"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -106,7 +106,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -126,13 +126,13 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="โทรศัพท์ : 043-237-555"
+                            android:text=" โทรศัพท์ : 043-237-555"
                             android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="โทรศัพท์มือถือ : 083-6667788"
+                            android:text=" โทรศัพท์มือถือ : 083-6667788"
                             android:textSize="18sp" />
                     </LinearLayout>
 
@@ -146,7 +146,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -161,7 +161,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="อีเมล : info@rph.co.th"
+                        android:text=" อีเมล : info@rph.co.th"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -173,7 +173,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -200,7 +200,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -214,7 +214,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="10dp"
                         android:text=" @Ratchaphruekhospital"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -227,7 +227,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:layout_margin="10dp"
                     android:orientation="horizontal">
 
@@ -242,7 +242,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="www.rph.co.th"
+                        android:text=" www.rph.co.th"
                         android:textSize="18sp" />
                 </LinearLayout>
 

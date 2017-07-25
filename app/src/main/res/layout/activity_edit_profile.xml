@@ -85,8 +85,14 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
         <LinearLayout
+            android:layout_margin="30dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -156,11 +162,13 @@
 
 
                 <EditText
+                    android:inputType="text"
                     android:id="@+id/editText"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\tสมจิต"
+                    android:text=""
+                    android:padding="10dp"
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
@@ -184,10 +192,12 @@
                 </LinearLayout>
 
                 <EditText
+                    android:inputType="text"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\tจงจอหอ"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
             </LinearLayout>
 
@@ -253,7 +263,6 @@
                         android:id="@+id/btn_dropdownEditMount"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-
                         android:spinnerMode="dropdown"></Spinner>
                 </LinearLayout>
 
@@ -299,10 +308,13 @@
                 </LinearLayout>
 
                 <EditText
+                    android:inputType="number"
+                    android:maxLength="13"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\t0000000000"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
@@ -326,10 +338,13 @@
                 </LinearLayout>
 
                 <EditText
+                    android:maxLength="15"
+                    android:inputType="phone"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\t0000000000"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
             </LinearLayout>
 
@@ -368,11 +383,13 @@
                 android:orientation="horizontal">
 
                 <CheckBox
+                    android:id="@+id/checkOne"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="เคย" />
 
                 <CheckBox
+                    android:id="@+id/checkTwo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -411,10 +428,12 @@
                 </LinearLayout>
 
                 <EditText
+                    android:inputType="text"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\tkkkkkkkk@gmail.com"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
@@ -438,10 +457,12 @@
                 </LinearLayout>
 
                 <EditText
+                    android:inputType="textPassword"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\txxxxxxxx"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
 
                 <LinearLayout
@@ -465,28 +486,30 @@
                 </LinearLayout>
 
                 <EditText
+                    android:inputType="textPassword"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:background="@drawable/bg_button"
-                    android:text="\txxxxxxxx"
+                    android:text=""
                     android:textColor="@color/colorBgEditText" />
             </LinearLayout>
 
-            <LinearLayout
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_register"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg_green_button_selector"
-                    android:gravity="center"
-                    android:text="ยืนยันข้อมูล"
-                    android:textColor="@color/colorBgDrawer" />
-            </LinearLayout>
-        </LinearLayout>
+                android:background="@drawable/bg_green_button_selector"
+                android:gravity="center"
+                android:text="ยืนยันข้อมูล"
+                android:textColor="@color/colorBgDrawer" />
+        </LinearLayout></LinearLayout>
     </ScrollView>
 </LinearLayout>
 

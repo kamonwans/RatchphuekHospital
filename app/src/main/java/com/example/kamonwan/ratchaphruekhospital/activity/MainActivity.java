@@ -2,6 +2,7 @@ package com.example.kamonwan.ratchaphruekhospital.activity;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Fragment();
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         actionBarDrawerToggle = new ActionBarDrawerToggle(
                 MainActivity.this,
@@ -50,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 R.string.close_drawer);
 
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
-
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("");
@@ -75,11 +76,12 @@ public class MainActivity extends AppCompatActivity {
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager());
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
-
         indicator = (CirclePageIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(pager);
 
+
     }
+
 
     public void Fragment() {
         MainFragment fragment = new MainFragment();

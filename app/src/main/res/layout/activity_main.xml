@@ -47,6 +47,8 @@
 
             <com.viewpagerindicator.CirclePageIndicator
                 android:id="@+id/indicator"
+                app:fillColor="#1e7728"
+                app:pageColor="#8fd497"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -93,9 +95,11 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:textColor="#000000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="สมจิต จงจอหอ"
+                    android:singleLine="true"
+                    android:text="@string/eng_hospital"
                     android:textSize="16sp" />
 
                 <Button
@@ -113,7 +117,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -121,18 +124,19 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="50dp"
                     android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
                         android:orientation="horizontal">
 
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
+                            android:layout_gravity="center"
                             android:src="@drawable/icon_menu_message" />
 
                         <TextView
@@ -141,148 +145,162 @@
                             android:layout_gravity="center"
                             android:layout_marginLeft="20dp"
                             android:text="@string/menu_message"
+                            android:textColor="#000000"
                             android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_packet" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_menu_packet" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_packet"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_packet"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_promotion" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_promotion" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_promotion"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_promotion"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_car" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_car" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_car"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_car"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_meet" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_meet" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_meet"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_meet"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_doctor" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_doctor" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_doctor"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_doctor"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_service" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_service" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_service"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_service"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
-                    android:id="@+id/btn_contact"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="horizontal">
+                        android:id="@+id/btn_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_menu_contact" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_menu_contact" />
 
-                    <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
-                    android:text="@string/menu_contact"
-                    android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/menu_contact"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
                     </LinearLayout>
                 </LinearLayout>
             </ScrollView>

@@ -43,6 +43,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
+
+
         MarkerOptions moRotFaiPark = new MarkerOptions();
         moRotFaiPark.position(ROT_FAI_PARK);
         googleMap.addMarker(moRotFaiPark);
